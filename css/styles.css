@@ -1,0 +1,113 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: sans-serif;
+	background: #f8ebe9;
+}
+.container{
+	width: 900px;
+	height: 550px;
+	background: #fff;
+	margin: 50px auto;
+	border: 1px solid #f8ebe9; /*'border' berilmasa '.nav'ga berilgan margin ishlamadi ?*/
+	box-shadow: 0 8px 10px 2px #d5a192;
+	background-image: url('../img/background.jpg');
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.nav{
+	margin: 12px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.back img{
+	height: 17px;
+	margin-right: 6px;
+	vertical-align: middle;
+}
+.back a{
+	color: #333;
+	display: flex;
+}
+.back a, .navigation a{
+	margin: 20px;
+	font-size: 13px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.navigation a{
+	color: #999;
+}
+.navigation a:hover{
+	color: #333;
+}
+.navigation .active-link{
+	color: #222;
+}
+.back a{
+	background-image: url(../img/arrow-back.svg);
+	background-position: left center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding-left: 20px;
+}
+.main{
+	width: 45%;
+	display: flex;
+	margin-top: 40px;
+	margin-left: 44%;
+	flex-direction: column;
+}
+.main h1{
+	font-size: 50px;
+	font-weight: 100;
+	font-family: serif;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+}
+.big-box{
+	display: flex;
+	width: 550px;
+	margin: 20px 40%;
+}
+.box1{
+	width: 200px;
+	margin-left: 35px;
+}
+.window{
+	width: 180px;
+}
+.play{
+	position: relative;
+	top: -75px;
+	left: 71px;
+	padding: 6px;
+	border-radius: 50%;
+	background: #ffffffab;
+}
+.box1 a{
+	color: #333;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.box1 a{
+	margin-left: -35px;
+}
+.sent{
+	width: 20px;
+	height: 15px;
+	display: inline-block;
+	margin-top: 12px;	
+}
+.box2{
+	width: 250px;    
+    margin-left: 12px;
+    line-height: 1.8;
+}
+.box2 p{
+	margin: 0;
+}
